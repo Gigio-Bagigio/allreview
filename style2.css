@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+    box-sizing: border-box;
+    font-size: large;
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: none for now;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px) brightness(30%)
+}
+
+form input{
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    padding-right: 45px;
+    font-size: 20px;
+} 
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #00fff0;
+    color: #222;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;    
+}
+.nav{
+    background: #ffff;
+    margin-left: -0px;
+    overflow: hidden;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-size-adjust: 20px;
+    size: 20px;
+}
+.nav a{
+    padding: 7px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    float: left;
+    height: auto;
+    text-size-adjust: 20px;
+    size: 50px;
+}
+.nav a:hover{
+    background: yellow;
+}
+.button:hover{
+    background-color: yellow;
+}
+
+.lbl1{
+    width: 160px;
+    margin-left: 50px;
+}
+
+table{
+    padding: 10%;
+}
+
+button{
+    border: none;
+    text-align: center;
+    border-radius: 45px;
+    height: 55px;
+    width: 280px;
+    margin-top: 10%;
+    margin-left: 103%;
+}
+body{
+    padding: 0%;
+    position: fixed;
+    margin-top: 5%;
+    text-size-adjust: 20px;
+}
+
+
+
+
+
+.divdue{
+    margin-top: 25%;
+}
+
+.textareaConLbl{
+    margin-top: 15%;
+    margin-right: 50%;
+}
+.boo{
+    width: 400px;
+}
+
+
+.text{
+    width: 400px;
+}
+
+div{
+    margin-left: 70%;
+}
+.lbl1{
+    grid-row: auto;
+    margin-left: 91%;
+}
